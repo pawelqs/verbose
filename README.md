@@ -48,7 +48,7 @@ foo()
 #> Hello world!
 ```
 
-Now, let’s turn off the verbosity for the foo package.
+Now, let’s turn off the verbosity for the foo package:
 
 ``` r
 verbose(foo = 0)
