@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # verbose <img src="man/figures/logo.png" align="right" height="120" alt="" />
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/pawelqs/verbose/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pawelqs/verbose/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of verbose package is to manage the verbosity of R packages during R session. The package provides a `verbose()` function which can be used to set or get the verbosity level for a your package.

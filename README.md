@@ -4,6 +4,8 @@
 # verbose <img src="man/figures/logo.png" align="right" height="120" alt="" />
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/pawelqs/verbose/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pawelqs/verbose/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of verbose package is to manage the verbosity of R packages
