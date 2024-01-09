@@ -7,7 +7,8 @@
 verbose(name = NULL, ...)
 }
 \arguments{
-\item{name}{name for which verbosity level should be returned}
+\item{name}{name for which verbosity level should be returned. Returns NULL
+if no verbosity level is set for that name.}
 
 \item{...}{key = value pairs to be set}
 }

@@ -43,6 +43,13 @@ test_that("Getting a specific verbosity level works", {
 })
 
 
+test_that("verbosity(name) return NULL if key does not exist", {
+  clear_verbose()
+  res <- verbose("cevomod")
+  expect_null(res)
+})
+
+
 test_that("clear_verbose() works", {
   verbose(cevomod = 1)
   verbose(readthis = 1)
