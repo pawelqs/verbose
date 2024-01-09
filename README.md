@@ -6,7 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of verbose package is to manage the verbosity of R packages.
+The goal of verbose package is to manage the verbosity of R packages
+during R session. The package provides a `verbose()` function which can
+be used to set or get the verbosity level for a your package.
 
 ## Installation
 
